@@ -1,0 +1,52 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+body{
+    background-color: rgb(144, 255, 255);
+}
+.discription{
+    font-family: sans-serif;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-evenly;
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.origami{
+    border: 20px solid pink;
+    border-radius: 10px;
+    background-color: white;
+    width: 310px;
+    background-color: pink;
+    font-size: 20px;
+}
+.grid * {
+    margin-bottom: 30px;
+}
+.title{
+    position: relative;
+}
+.title h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+}
+.title h2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
